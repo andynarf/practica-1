@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New York</title>
+<link rel="stylesheet" href="estilos.css" type="text/css"/>
+
+<script language="javascript" type="text/javascript">
+
+function muestra1(){
+	document.getElementById('primero').style.display = 'block';
+	document.getElementById('segundo').style.display = 'none';
+	document.getElementById('tercero').style.display = 'none';
+}
+
+function muestra2(){
+	document.getElementById('segundo').style.display = 'block';
+	document.getElementById('primero').style.display = 'none';
+	document.getElementById('tercero').style.display = 'none';
+}
+
+function muestra3(){
+	document.getElementById('tercero').style.display = 'block';
+	document.getElementById('primero').style.display = 'none';
+	document.getElementById('segundo').style.display = 'none';
+}
+	
+	
+</script>
+
+</head>
+
+<body>
+
+	<div class="container">
+    	<h1>Nueva York</h1>
+    
+    <section>
+    
+    	<article id="primero">
+        <img src="images/foto1.png" alt="Donuts de Nueva York"/>
+        <p><span class="amarillo">Nueva York</span> (en inglés y oficialmente, New York) es la ciudad más poblada del estado homónimo, y de los Estados Unidos de América, y la segunda mayor concentración urbana de América del Norte, después del Distrito Federal de México. La ciudad de Nueva York está entre las aglomeraciones urbanas más grandes y más pobladas del mundo.</p>
+
+<p>Desde <span class="verde">finales del siglo XIX</span> es uno de los principales centros mundiales de comercio y finanzas del mundo entero. Nueva York está considerada como ciudad global, dadas sus influencias a nivel mundial en los medios de comunicación, en la política, en la educación, en el entretenimiento y la moda.</p>
+        </article>
+        
+        <article id="segundo">
+        <img src="images/foto2.png" alt="Rascacielos de Nueva York"/>
+        <p>Desde <span class="verde">finales del siglo XIX</span> es uno de los principales centros mundiales de comercio y finanzas del mundo entero. Nueva York está considerada como ciudad global, dadas sus influencias a nivel mundial en los medios de comunicación, en la política, en la educación, en el entretenimiento y la moda.</p>
+        <p><span class="amarillo">Nueva York</span> (en inglés y oficialmente, New York) es la ciudad más poblada del estado homónimo, y de los Estados Unidos de América, y la segunda mayor concentración urbana de América del Norte, después del Distrito Federal de México. La ciudad de Nueva York está entre las aglomeraciones urbanas más grandes y más pobladas del mundo.</p>
+        </article>
+        
+        <article id="tercero">
+        <img src="images/foto3.png" alt="La esencia de Nueva York"/>
+        <p><span class="naranja">Nueva York</span> (en inglés y oficialmente, New York) es la ciudad más poblada del estado homónimo, y de los Estados Unidos de América, y la segunda mayor concentración urbana de América del Norte, después del Distrito Federal de México. La ciudad de Nueva York está entre las aglomeraciones urbanas más grandes y más pobladas del mundo.</p>
+
+<p>Desde <span class="verde">finales del siglo XIX</span> es uno de los principales centros mundiales de comercio y finanzas del mundo entero. Nueva York está considerada como ciudad global, dadas sus influencias a nivel mundial en los medios de comunicación, en la política, en la educación, en el entretenimiento y la moda.</p>
+        </article>
+
+    </section>
+    
+    <nav>
+    	<ul>
+        	<li>
+            <a href="#" onClick="muestra1()">Opción 1</a>
+            </li>
+            <li>
+            <a href="#" onClick="muestra2()">Opción 2</a>
+            </li>
+            <li>
+            <a href="#" onClick="muestra3()">Opción 3</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="estatua"><img src="images/estatua.png" alt="Estatua de la Libertad"/></div>
+    <!--end container--></div>
+
+</body>
+</html>
